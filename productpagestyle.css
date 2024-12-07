@@ -1,0 +1,191 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    background: rgb(9,4,99);
+    background: linear-gradient(186deg, rgba(9,4,99,1) 5%, rgba(17,17,177,1) 32%, rgba(0,212,255,1) 95%);
+    background-attachment: fixed;
+}
+img{
+    width: 40%;
+    height: 30%;
+    background-color: #ffff;
+    border-radius: 1em;
+    padding: 2%;
+    margin-left: 3%;
+}
+.container h1{
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+.container p{
+    background-color: #ffff;
+    border-radius: 1em;
+    padding: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#header-nav{
+  padding: 2%;
+  }
+.main{
+  max-width: auto;
+  color: #f64c72;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  overflow: hidden;
+  text-shadow: 0 0 10px #f64c72;
+  -webkit-box-reflect:below -10px linear-gradient(transparent, rgba(264,76,114,0.3));
+}
+.partname{
+  color: #ffffff;
+  text-shadow: 0 0 10px #ffffff;
+}
+
+.pricechar{
+    background-color: #ffff;
+    border-radius: 1em;
+    float: right;
+    margin-right: 25%;
+    padding: 5%;
+}
+.pricechar h3{
+    display: flex;
+    justify-content: center;
+
+}
+.pricechar button{
+    display: flex;
+    justify-content: center;
+}
+
+/* popup */
+
+
+* {
+    box-sizing: border-box;
+  }
+  .openBtn {
+    display: flex;
+    justify-content: left;
+    transition: 0.3s;
+  }
+  .openButton {
+    border: none;
+    border-radius: 1em;
+    background-color: #3feee5;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    justify-content: center;
+  }
+  .openBtn:hover{
+    background: #3feee5;
+    box-shadow: 0 0 5px #3feee5,
+                0 0 25px #3feee5,
+                0 0 50px #3feee5,
+                0 0 200px #3feee5;
+  }
+  
+  .formPopup {
+    display: none;
+    position: fixed;
+    left: 47%;
+    top: 5%;
+    transform: translate(-50%, 5%);
+    z-index: 9;
+    border-radius: 1em;
+    background: #ffffff;
+    color: rgb(71, 71, 71);
+    font-family: 'Poppins', sans-serif;
+    border: none;
+
+  
+}
+  .formContainer {
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 1em;
+  }
+  .formContainer input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border-radius: 1em;   
+    background: #eee;
+    border: none;
+
+  }
+  .formContainer input[type=text]:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+  .formContainer .btn {
+    padding: 12px 20px;
+    border-radius: 1em;
+    border: none;
+    transition: 0.3s;
+    background-color: #b800ff;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+    opacity: 0.8;
+
+  }
+  .formContainer .cancel {
+    background-color: #f64c72;
+  }
+  .formContainer .btn:hover,
+  #submit:hover {
+    opacity: 1;
+    box-shadow: 0 0 5px #b800ff,
+                0 0 5px #b800ff,
+                0 0 20px #b800ff,
+                0 0 5px #b800ff;
+  }
+  .formContainer .cancel:hover{
+    box-shadow: 0 0 5px #f64c72,
+    0 0 5px #f64c72,
+    0 0 20px #f64c72,
+    0 0 5px #f64c72;
+  }
+  
+  /* koda za butonite */
+  .btnnav a{
+    padding: 2em;
+    color: #f64c72;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    float: right;   
+}
+  .btnnav a:hover{
+    background: #f64c72;
+    color: #050801;
+    box-shadow: 0 0 5px #f64c72,
+                0 0 25px #f64c72,
+                0 0 50px #f64c72,
+                0 0 200px #f64c72;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+button{
+    padding: 0;
+    background: rgba(255, 110, 48, 0.072);
+    border: none;
+    float: right;
+}
+/* drug kod */
+.ptext{
+  color: #fff;
+  float: right;
+  margin-right: 2em;
+}
+span{
+  color: #f64c72;
+}
